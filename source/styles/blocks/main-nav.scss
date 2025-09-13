@@ -1,0 +1,9 @@
+.main-nav {
+  @include mobile {
+    display: none;
+  }
+}
+
+.main-nav__list {
+  @include list-resseting;
+}

@@ -1,0 +1,39 @@
+.main-header {
+  display: grid;
+  grid-template-columns: 71% 1fr 1fr;
+}
+
+.main-header__list {
+  @include list-resseting;
+}
+
+.main-header__link-icon {
+  color: $f-main;
+}
+
+.main-header__item--search,
+.main-header__item--login,
+.main-header__item--favorite {
+  @include mobile {
+    display: none;
+  }
+}
+
+.main-header__link-icon--mobile {
+  width: 20px;
+  height: 20px;
+
+  @include mobile {
+    width: 28px;
+    height: 28px;
+  }
+}
+
+.main-header__nav-toggle {
+  margin-left: auto;
+  padding: 0;
+
+  @include tablet {
+    display: none;
+  }
+}

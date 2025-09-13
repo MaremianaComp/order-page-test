@@ -1,0 +1,9 @@
+$font-main: "Inter", "Arial", sans-serif;
+
+/* цвета */
+$f-main: #000000;
+
+$desktop-width: 1600px;
+$breakpoint-tablet: 768px;
+$breakpoint-gap: 0.02px;
+$mobile-only: "(max-width: #{$breakpoint-tablet - $breakpoint-gap})";
